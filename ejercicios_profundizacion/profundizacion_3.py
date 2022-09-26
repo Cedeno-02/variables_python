@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# NOTA: 
+# NOTA:
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
 # Están pensados para aquellos con conocimientos previo o que dispongan
 # de mucho más tiempo para abordar estos temas por su cuenta.
@@ -38,3 +38,12 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese su nombre completo')
+nom_comp = str(input())
+
+print('Nombre en minusculas:', nom_comp.lower())
+print('Nombre en mayusculas', nom_comp.upper())
+print('Primer letra en mayus', nom_comp.capitalize())
+
+# Fabián Cedeño Rojas

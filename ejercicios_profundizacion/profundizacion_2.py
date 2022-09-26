@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# NOTA: 
+# NOTA:
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
 # Están pensados para aquellos con conocimientos previo o que dispongan
 # de mucho más tiempo para abordar estos temas por su cuenta.
@@ -33,3 +33,17 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+print('Por favor ingrese su nombre completo')
+nom_com = str(input())
+print('Por favor ingrese su dni sin .')
+dni = int(input())
+print('Por favor ingrese su edad')
+edad = int(input())
+print('Y por último, ingrese su altura')
+altura = float(input())
+
+print('Su nombre completo es', nom_com, 'y su dni es:', dni)
+
+print('Nombre completo:', nom_com, 'edad:', edad, 'altura', altura, 'metros')
+
+# Fabián Cedeño Rojas
