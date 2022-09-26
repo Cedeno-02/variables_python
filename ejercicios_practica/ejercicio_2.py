@@ -11,6 +11,9 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
+from __future__ import division
+
+
 print('Ingrese por consola el primer número entero a operar:')
 numero_1 = int(input())
 
@@ -19,7 +22,8 @@ numero_2 = int(input())
 
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
-
+print('El num1 ingresado es:', numero_1)
+print('El num2 ingresado es:', numero_2)
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
 # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
@@ -27,9 +31,17 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
-
+suma = numero_1 + numero_2
+print('El resultado de la suma es', suma)
 # Resta
-
+resta = numero_1 - numero_2
+print('El resultado de la resta es', resta)
 # División
-
+division = numero_1 / numero_2
+print('El resultado de la division es', division)
 # Multiplicación
+multiplicacion = numero_1 * numero_2
+print('El resultado de la multiplicacion es', multiplicacion)
+
+
+# Ejercicio por Fabián Cedeño Rojas.
